@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://host.docker.internal:8080', // backend URL
+    baseURL: 'https://msme-backend.onrender.com/api/applicants', // backend URL
 });
 
 export default api;
